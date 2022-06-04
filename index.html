@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>GitFav</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <img src="./Gitfav.svg" alt="GITFAV logo" />
+        <div class="input-search">
+          <label class="sr-only" for="entries">Entrada de usuário</label>
+          <input
+            type="text"
+            name=""
+            id="entries"
+            placeholder="Enter the Github username you want to favorite"
+          />
+          <button>
+            <img src="star.svg" alt="">
+            Favorites
+          </button>
+        </div>
+      </header>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Users</th>
+            <th>Repositories</th>
+            <th>Followers</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="user">
+              <img
+                src="https://github.com/Luizfpsvn.png"
+                alt="Luiz Fernando image"
+              />
+              <a href="https://github.com/Luizfpsvn" target="_blank">
+                <p>Luiz Fernando</p>
+                <span>/Luizfpsvn</span>
+              </a>
+            </td>
+            <td class="repositories">76</td>
+            <td class="followers">9589</td>
+            <td class="remove">
+              <button class="remove">Remove</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="user">
+              <img
+                src="https://github.com/Paru369.png"
+                alt="Paulo Pinheiro image"
+              />
+              <a href="https://github.com/Paru369" target="_blank">
+                <p>Paulo Pinheiro</p>
+                <span>/Paru369</span>
+              </a>
+            </td>
+            <td class="repositories">76</td>
+            <td class="followers">9589</td>
+            <td>
+              <button class="remove">Remove</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
