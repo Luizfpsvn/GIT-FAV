@@ -8,16 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono:wght@700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
     <title>GitFav</title>
+
+    <script src="./javascript/index.js" type="module" defer></script>
   </head>
   <body>
     <div id="app">
       <header>
-        <img src="./Gitfav.svg" alt="GITFAV logo" />
+        <img src="./assets/Gitfav.svg" alt="GITFAV logo" />
         <div class="input-search">
           <label class="sr-only" for="entries">Entrada de usuário</label>
           <input
@@ -46,53 +48,60 @@
         </div>
       </header>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Users</th>
-            <th>Repositories</th>
-            <th>Followers</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="user">
-              <img
-                src="https://github.com/Luizfpsvn.png"
-                alt="Luiz Fernando image"
-              />
-              <a href="https://github.com/Luizfpsvn" target="_blank">
-                <p>Luiz Fernando</p>
-                <span>/Luizfpsvn</span>
-              </a>
-            </td>
-            <td class="repositories">76</td>
-            <td class="followers">9589</td>
-            <td class="remove">
-              <button class="remove">Remove</button>
-            </td>
-          </tr>
+      <div class="content-box">
+        <table>
+          <thead>
+            <tr>
+              <th>Users</th>
+              <th>Repositories</th>
+              <th>Followers</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- <tr>
+              <td class="user">
+                <img
+                  src="https://github.com/Luizfpsvn.png"
+                  alt="Luiz Fernando image"
+                />
+                <a href="https://github.com/Luizfpsvn" target="_blank">
+                  <p>Luiz Fernando</p>
+                  <span>/Luizfpsvn</span>
+                </a>
+              </td>
+              <td class="repositories">76</td>
+              <td class="followers">9589</td>
+              <td class="remove">
+                <button class="remove">Remove</button>
+              </td>
+            </tr>
 
-          <tr>
-            <td class="user">
-              <img
-                src="https://github.com/Paru369.png"
-                alt="Paulo Pinheiro image"
-              />
-              <a href="https://github.com/Paru369" target="_blank">
-                <p>Paulo Pinheiro</p>
-                <span>/Paru369</span>
-              </a>
-            </td>
-            <td class="repositories">76</td>
-            <td class="followers">9589</td>
-            <td>
-              <button class="remove">Remove</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+            <tr>
+              <td class="user">
+                <img
+                  src="https://github.com/Paru369.png"
+                  alt="Paulo Pinheiro image"
+                />
+                <a href="https://github.com/Paru369" target="_blank">
+                  <p>Paulo Pinheiro</p>
+                  <span>/Paru369</span>
+                </a>
+              </td>
+              <td class="repositories">76</td>
+              <td class="followers">9589</td>
+              <td>
+                <button class="remove">Remove</button>
+              </td>
+            </tr> -->
+          </tbody>
+        </table>
+
+        <div class="without-entries">
+          <img src="./assets/Estrela.svg" alt="A sad star" />
+          <p>no favorites</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
