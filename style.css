@@ -87,6 +87,9 @@ header {
 .input-search button:hover {
   background: #ffffff;
   color: var(--text-hover);
+}
+
+.input-search button:hover path {
   fill: var(--text-hover);
 }
 
