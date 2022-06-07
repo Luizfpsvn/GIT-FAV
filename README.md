@@ -22,7 +22,7 @@
 </p>
 
 ## ABOUT
-- Project made to save in a browser database (LocalStorage), HTML / CSS / JAVASCRIPT were used in the realization of this project, it was executed respecting a figma layout: (https://www.figma.com/file/BgORdcoVNPXJaKYeecwI6T /%5BDesafios-Explorer%5D-GitFav-(Copy)-(Copy)?node-id=104%3A48)
+- Project made to save in a browser database (LocalStorage), HTML / CSS / JAVASCRIPT were used in the realization of this project, it was executed respecting a figma layout: (https://www.figma.com/file/BgORdcoVNPXJaKYeecwI6T/%5BDesafios-Explorer%5D-GitFav-(Copy)-(Copy)?node-id=104%3A48)
 
 - In the future, it will have an update turning it into a responsive app!
 
@@ -34,6 +34,14 @@
 - Futuramente, ele terá uma atualização transformando ele em um app responsivo!
 
 - Link para o projeto em ação: https://luizfpsvn.github.io/GIT-FAV/
+
+## Images
+
+![image](https://user-images.githubusercontent.com/99773088/172271233-a2833613-5413-491c-8c8a-df0331431d93.png)
+
+
+![image](https://user-images.githubusercontent.com/99773088/172271305-f53bdad3-fa34-4679-b16c-3e2189b68148.png)
+
 
 ## Tech Stack
 <img src="https://img.shields.io/badge/Css3-05122A?style=flat&logo=css3" alt="css3 Badge" height="25">&nbsp;
