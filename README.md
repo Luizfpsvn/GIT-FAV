@@ -26,14 +26,14 @@
 
 - In the future, it will have an update turning it into a responsive app!
 
-- Link to the project in action:
+- Link to the project in action: https://luizfpsvn.github.io/GIT-FAV/
 
 ## Sobre
 - Projeto feito para salvar em um banco de dados do navegador (LocalStorage), foram utilizados HTML / CSS / JAVASCRIPT na realização desse projeto, ele foi executado respeitando um layout do figma: (https://www.figma.com/file/BgORdcoVNPXJaKYeecwI6T/%5BDesafios-Explorer%5D-GitFav-(Copy)-(Copy)?node-id=104%3A48)
 
 - Futuramente, ele terá uma atualização transformando ele em um app responsivo!
 
-- Link para o projeto em ação: 
+- Link para o projeto em ação: https://luizfpsvn.github.io/GIT-FAV/
 
 ## Tech Stack
 <img src="https://img.shields.io/badge/Css3-05122A?style=flat&logo=css3" alt="css3 Badge" height="25">&nbsp;
@@ -48,6 +48,6 @@
 Made with ❤️ by [Luiz Fernando Pinto De Souza Verly Do Nascimento](https://github.com/Luizfpsvn), get in touch!
 
 <a href="mailto:luizfernando.cg@hotmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email Badge" height="25"></a>&nbsp;
-<a href=https://www.linkedin.com/in/luiz-f-nascimento/" target="_blank"><img src="https://img.shields.io/badge/Linkedin-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;
+<a href="https://www.linkedin.com/in/luiz-f-nascimento/" target="_blank"><img src="https://img.shields.io/badge/Linkedin-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;
 
 <br clear="left"/>
